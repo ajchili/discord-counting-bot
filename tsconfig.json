@@ -1,9 +1,9 @@
 {
     "extends": "@tsconfig/node18",
     "compilerOptions": {
+        "declaration": true,
         "module": "ESNext",
         "moduleResolution": "Bundler",
-        "resolveJsonModule": true,
-        "outDir": "dist"
+        "resolveJsonModule": true
     }
 }
