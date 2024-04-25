@@ -5,17 +5,17 @@
     "main": "dist/index.js",
     "type": "module",
     "scripts": {
-      "build": "tsc",
-      "start": "node ."
+        "build": "tsc",
+        "start": "node ."
     },
     "author": "",
     "license": "MIT",
     "devDependencies": {
-      "@tsconfig/node18": "^18.2.4",
-      "typescript": "^5.4.5"
+        "@tsconfig/node18": "^18.2.4",
+        "typescript": "^5.4.5"
     },
     "dependencies": {
-      "discord.js": "^14.14.1"
+        "@discord-counting-bot/core": "*",
+        "discord.js": "^14.14.1"
     }
-  }
-  
+}
