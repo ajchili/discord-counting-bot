@@ -2,5 +2,11 @@
   "name": "@discord-counting-bot/empty",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.3"
+  }
 }
