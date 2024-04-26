@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "node ."
+    "start": "node .",
+    "lint": "eslint"
   },
   "author": "",
   "license": "MIT",
