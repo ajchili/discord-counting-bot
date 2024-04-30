@@ -1,1 +1,1 @@
-export * as jsonCommands from "./commands/index.js"
+export * as jsonCommands from "./commands/index.js";
