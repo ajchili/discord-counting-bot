@@ -7,7 +7,9 @@
     "scripts": {
       "build": "tsc",
       "start": "node .",
-      "lint": "eslint"
+      "lint": "eslint",
+      "format": "prettier . --check",
+      "format:fix": "prettier . --write"
     },
     "author": "",
     "license": "MIT",

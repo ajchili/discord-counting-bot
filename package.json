@@ -5,9 +5,12 @@
   ],
   "scripts": {
     "build": "turbo build",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "format:fix": "turbo format:fix"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "@eslint/js": "^9.1.1",
     "@tsconfig/node18": "^18.2.4",
     "eslint": "^8.57.0",
