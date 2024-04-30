@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf node_modules dist",
     "start": "node .",
     "lint": "eslint",
     "format": "prettier . --check",
-    "format:fix": "prettier . --write"
+    "fix": "prettier . --write"
   },
   "author": "",
   "license": "MIT",

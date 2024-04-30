@@ -1,12 +1,14 @@
 {
-    "$schema": "https://turbo.build/schema.json",
-    "pipeline": {
-        "build": {"dependsOn": ["lint", "format"]},
-        "lint": {},
-        "format": {},
-        "format:fix": {}
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build", "lint", "format"],
+      "outputs": ["dist/**"]
     },
-    "globalDependencies": [
-        "tsconfig.json"
-    ]
+    "clean": {},
+    "lint": {},
+    "format": {},
+    "fix": {}
+  },
+  "globalDependencies": ["tsconfig.json"]
 }
